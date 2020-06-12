@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85B7D66638A892DD30DF2CBD /* Pods_MadhuChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695BD6060E73B3DBA6A36D8D /* Pods_MadhuChatApp.framework */; };
+		C25936162489408D00602FEF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25936152489408D00602FEF /* Constants.swift */; };
+		C2593618248947FA00602FEF /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2593617248947FA00602FEF /* Message.swift */; };
+		C259361D24894A3000602FEF /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C259361B24894A3000602FEF /* MessageCell.swift */; };
+		C259361E24894A3000602FEF /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C259361C24894A3000602FEF /* MessageCell.xib */; };
+		C2784AF12487E01800E1316D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2784AF02487E01800E1316D /* AppDelegate.swift */; };
+		C2784AF32487E01800E1316D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2784AF22487E01800E1316D /* SceneDelegate.swift */; };
+		C2784AF52487E01800E1316D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2784AF42487E01800E1316D /* ViewController.swift */; };
+		C2784AF82487E01800E1316D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2784AF62487E01800E1316D /* Main.storyboard */; };
+		C2784AFA2487E02100E1316D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2784AF92487E02100E1316D /* Assets.xcassets */; };
+		C2784AFD2487E02100E1316D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2784AFB2487E02100E1316D /* LaunchScreen.storyboard */; };
+		C2784B052487E11B00E1316D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2784B042487E11B00E1316D /* GoogleService-Info.plist */; };
+		C2784B082487EC3D00E1316D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2784B072487EC3D00E1316D /* RegisterViewController.swift */; };
+		C2784B0A2487EC5B00E1316D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2784B092487EC5B00E1316D /* SignInViewController.swift */; };
+		C2784B0C2487EE7C00E1316D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2784B0B2487EE7C00E1316D /* ChatViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EF84473FB52BBA3A0367586 /* Pods-MadhuChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadhuChatApp.release.xcconfig"; path = "Target Support Files/Pods-MadhuChatApp/Pods-MadhuChatApp.release.xcconfig"; sourceTree = "<group>"; };
+		695BD6060E73B3DBA6A36D8D /* Pods_MadhuChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadhuChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D6A9A3D40734DD7D622BC1 /* Pods-MadhuChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadhuChatApp.debug.xcconfig"; path = "Target Support Files/Pods-MadhuChatApp/Pods-MadhuChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C25936152489408D00602FEF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C2593617248947FA00602FEF /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C259361B24894A3000602FEF /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		C259361C24894A3000602FEF /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		C2784AED2487E01800E1316D /* MadhuChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadhuChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2784AF02487E01800E1316D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2784AF22487E01800E1316D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2784AF42487E01800E1316D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2784AF72487E01800E1316D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2784AF92487E02100E1316D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2784AFC2487E02100E1316D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2784AFE2487E02100E1316D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2784B042487E11B00E1316D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2784B072487EC3D00E1316D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C2784B092487EC5B00E1316D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		C2784B0B2487EE7C00E1316D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2784AEA2487E01800E1316D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B7D66638A892DD30DF2CBD /* Pods_MadhuChatApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8671AEE1A0D4E598831B5B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				695BD6060E73B3DBA6A36D8D /* Pods_MadhuChatApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C25936192489480400602FEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2593617248947FA00602FEF /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C259361A248949F900602FEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2784AF62487E01800E1316D /* Main.storyboard */,
+				C2784AFB2487E02100E1316D /* LaunchScreen.storyboard */,
+				C259361B24894A3000602FEF /* MessageCell.swift */,
+				C259361C24894A3000602FEF /* MessageCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2784AE42487E01800E1316D = {
+			isa = PBXGroup;
+			children = (
+				C2784AEF2487E01800E1316D /* MadhuChatApp */,
+				C2784AEE2487E01800E1316D /* Products */,
+				DE4275F6A2B441E235F16149 /* Pods */,
+				B8671AEE1A0D4E598831B5B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2784AEE2487E01800E1316D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2784AED2487E01800E1316D /* MadhuChatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2784AEF2487E01800E1316D /* MadhuChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				C2784AF02487E01800E1316D /* AppDelegate.swift */,
+				C2784AF22487E01800E1316D /* SceneDelegate.swift */,
+				C25936192489480400602FEF /* Model */,
+				C259361A248949F900602FEF /* View */,
+				C2784B062487EC1700E1316D /* Controllers */,
+				C2784AF92487E02100E1316D /* Assets.xcassets */,
+				C2784AFE2487E02100E1316D /* Info.plist */,
+				C2784B042487E11B00E1316D /* GoogleService-Info.plist */,
+				C25936152489408D00602FEF /* Constants.swift */,
+			);
+			path = MadhuChatApp;
+			sourceTree = "<group>";
+		};
+		C2784B062487EC1700E1316D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2784AF42487E01800E1316D /* ViewController.swift */,
+				C2784B072487EC3D00E1316D /* RegisterViewController.swift */,
+				C2784B092487EC5B00E1316D /* SignInViewController.swift */,
+				C2784B0B2487EE7C00E1316D /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE4275F6A2B441E235F16149 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89D6A9A3D40734DD7D622BC1 /* Pods-MadhuChatApp.debug.xcconfig */,
+				1EF84473FB52BBA3A0367586 /* Pods-MadhuChatApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2784AEC2487E01800E1316D /* MadhuChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2784B012487E02200E1316D /* Build configuration list for PBXNativeTarget "MadhuChatApp" */;
+			buildPhases = (
+				DD3CB2AD30DDD765BDC9951B /* [CP] Check Pods Manifest.lock */,
+				C2784AE92487E01800E1316D /* Sources */,
+				C2784AEA2487E01800E1316D /* Frameworks */,
+				C2784AEB2487E01800E1316D /* Resources */,
+				55235432799805D367F5DD6D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MadhuChatApp;
+			productName = MadhuChatApp;
+			productReference = C2784AED2487E01800E1316D /* MadhuChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2784AE52487E01800E1316D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Madhu;
+				TargetAttributes = {
+					C2784AEC2487E01800E1316D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C2784AE82487E01800E1316D /* Build configuration list for PBXProject "MadhuChatApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2784AE42487E01800E1316D;
+			productRefGroup = C2784AEE2487E01800E1316D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2784AEC2487E01800E1316D /* MadhuChatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2784AEB2487E01800E1316D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C259361E24894A3000602FEF /* MessageCell.xib in Resources */,
+				C2784AFD2487E02100E1316D /* LaunchScreen.storyboard in Resources */,
+				C2784B052487E11B00E1316D /* GoogleService-Info.plist in Resources */,
+				C2784AFA2487E02100E1316D /* Assets.xcassets in Resources */,
+				C2784AF82487E01800E1316D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55235432799805D367F5DD6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MadhuChatApp/Pods-MadhuChatApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MadhuChatApp/Pods-MadhuChatApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MadhuChatApp/Pods-MadhuChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD3CB2AD30DDD765BDC9951B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MadhuChatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2784AE92487E01800E1316D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2784AF52487E01800E1316D /* ViewController.swift in Sources */,
+				C2784AF12487E01800E1316D /* AppDelegate.swift in Sources */,
+				C2784AF32487E01800E1316D /* SceneDelegate.swift in Sources */,
+				C2784B0A2487EC5B00E1316D /* SignInViewController.swift in Sources */,
+				C25936162489408D00602FEF /* Constants.swift in Sources */,
+				C2593618248947FA00602FEF /* Message.swift in Sources */,
+				C2784B0C2487EE7C00E1316D /* ChatViewController.swift in Sources */,
+				C2784B082487EC3D00E1316D /* RegisterViewController.swift in Sources */,
+				C259361D24894A3000602FEF /* MessageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2784AF62487E01800E1316D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2784AF72487E01800E1316D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2784AFB2487E02100E1316D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2784AFC2487E02100E1316D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2784AFF2487E02100E1316D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2784B002487E02100E1316D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2784B022487E02200E1316D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D6A9A3D40734DD7D622BC1 /* Pods-MadhuChatApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MadhuChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madhu.MadhuChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2784B032487E02200E1316D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF84473FB52BBA3A0367586 /* Pods-MadhuChatApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MadhuChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madhu.MadhuChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2784AE82487E01800E1316D /* Build configuration list for PBXProject "MadhuChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2784AFF2487E02100E1316D /* Debug */,
+				C2784B002487E02100E1316D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2784B012487E02200E1316D /* Build configuration list for PBXNativeTarget "MadhuChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2784B022487E02200E1316D /* Debug */,
+				C2784B032487E02200E1316D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2784AE52487E01800E1316D /* Project object */;
+}
